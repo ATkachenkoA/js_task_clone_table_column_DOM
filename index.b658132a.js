@@ -1,0 +1,2 @@
+var e=document.querySelector("table");function r(e){var r=e.rows,t=!0,l=!1,o=void 0;try{for(var n,a=r[Symbol.iterator]();!(t=(n=a.next()).done);t=!0){var c=n.value,i=c.cells[1].cloneNode(!0),u=c.cells[c.cells.length-1];c.insertBefore(i,u)}}catch(e){l=!0,o=e}finally{try{t||null==a.return||a.return()}finally{if(l)throw o}}}r(e.tHead),r(e.tBodies[0]),r(e.tFoot);
+//# sourceMappingURL=index.b658132a.js.map
