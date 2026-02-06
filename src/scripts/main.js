@@ -10,7 +10,7 @@ function cloneSecondColumn(section) {
 
     const clonedCell = secondCell.cloneNode(true);
 
-    const lastCell = row.cells[row.cells.lenqth - 1];
+    const lastCell = row.cells[row.cells.length - 1];
 
     row.insertBefore(clonedCell, lastCell);
   }
